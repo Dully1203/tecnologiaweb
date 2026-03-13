@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <!--Conteúdo da Página sera inserida aqui-->
+    
     <header>
         <nav>
             <div class="header-container">
@@ -21,26 +21,85 @@
             </div>
             </div>
         </nav>
+        <nav>
+            <ul>
+                <li><a href="#Sobre">Sobre mim</a></li>
+                <li><a href="#projetos">projetos</a></li>
+                <li><a href="#Formação">Formação</a></li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <!--==================CONTEÚDO PRINCIPAL=================-->
     <main>
         <!--Seção sobre mim-->
         <section id="Sobre mim">
-            <!--Conteudo preenchido aula 2-->
+            <h2>Sobre mim</h2>
+            <p>Olá! Sou<strong>Jullie</strong>, Estudante de Sistema de informações.
+            Tenho interesse e desenvolvimento web e criação de soluções digitais.</p>
+            <p>Cursando o<strong>2 período</strong> na CEUNI FAMETRO, Manaus-AM,
+            desenvolvendo meu primero portfólio em <em>Tecnologia Web</em>.</p>
+            <h3>Minhas habilidades</h3>
+            <ul>
+                <li>HTML5 e CSS3</li>
+                <li>Lógica de Pogramação</li>
+                <li>Git e Github</li>
+                <li>Pacote Office</li>
+            </ul>
+            <h3>Formação Academica</h3>
+            <ol>
+                <li>Ensino Médio - Prof Roberto dos Santos Vieira, 2023</li>
+                <li>Graduação em Sistema de Informação - CEUNI FAMETRO (Em andamento)</li>
+            </ol>
         </section>
         <section id="projetos">
-            <!--Conteudo preenchido aula 2-->
+            <h2>Projetos</h2>
+            <article class="card-projeto">
+            <img src="img/logo_livraria_roxa_transparente.png" alt="Screenshot do Projeto 1" width="300">
+            <h3>Nome do projeto 1</h3>
+            <p>Descrição Breve das Tecnologias e Objetivo do Projeto.</p>
+            <a href="https://github.com/Dully1203/tecnologiaweb"
+                     target="_blank" rel="noopener noreferrer">Ver no Github</a>
+                    </article>
         </section>
         <section id="Formação">
-            <!--Conteudo preenchido aula 2-->
+            <h2>Formação e Experiência</h2>
+            <h3>Acadêmica</h3>
+            <ul>
+                <li><strong>Graduação em Sistemas de Informação</strong>
+                    -CEUNI FAMETRO<br>
+                    <small>2025 - Atual | Manaus, AM</small></li>
+                    <li><strong>Ensino Médio</strong> - Prof Roberto dos Santos Vieira<br>
+                       <small>2023</small></li>
+            </ul>
+            <h3>Cursos e Certificações</h3>
+            <ul>
+                <li>HTML e CSS - [PLATAFORMA, ANO]</li>
+                <li>Lógica de programação - [PLATAFORA, ANO]</li>
+            </ul>
         </section>
         <section id="Contato">
-            <!--Conteudo preenchido aula 2 -->
+            <h2>Contato</h2>
+            <p>Preencha o formulário e entrarei e contato e breve!</p>
+            <form action="#" method="post">
+            <input type="text" id="Nome" name="nome"
+                   placeholder="Seu nome completo" required>
+                   <label for="Assunto">Assunto:</label>
+                   <textarea id="mensagem" name="mensagem" rows="5"
+                             placeholder="Sua mensagem aqui..."required></textarea>
+                             <button type="submit">Enviar Mensagem</button>
+            </form>
         </section>
     </main>
     <!--===================RODAPÉ==============-->
     <footer>
-        <!--Rodape sera preenchido aula 2-->
+        <p>&copy; 2026 Jullie.Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="https://github.com/Dully1203"
+                   target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li><a href=""
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
     </footer>
 </body>
 </html>

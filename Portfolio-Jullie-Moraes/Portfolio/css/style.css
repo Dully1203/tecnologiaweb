@@ -1,0 +1,47 @@
+/*================================================
+CSS RESET - NORMALIZA ESTILOS ENTRE NAVEGADORES
+================================================*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*===============================================
+VARIAVEIS CSS - IDENTIDADE VISUAL DO PORTFOLIO
+================================================*/
+:root{
+    --cor-primaria: #2e75b6;
+    --cor-secundaria: #1f4e79;
+    --cor-texto: #333333;
+    --cor-fundo: #f5f7fa;
+    --cor-branco: #ffffff;
+    --fonte-principal:'Inter', sans-serif;
+    --tamanho-base: 16px;
+    --espacamento: 1rem;
+
+}
+/*========================================================
+ESTILOS GLOBAIS
+=========================================================*/
+body{
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-base);
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    line-height: 1.6;
+
+}
+
+h1, h2, h3{
+    color: var(--cor-secundaria);
+    line-height: 1.2;
+    margin-bottom:0.75rem;
+}
+
+h1{ font-size: 2.5rem;}
+h2{ font-size: 1.8rem; border-bottom: 3px solid var(--cor-primaria); padding-bottom: 0.5rem; }
+h3{ font-size: 1.2;}
+
+p {
+
+}
